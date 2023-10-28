@@ -363,8 +363,8 @@ class lt {
         ).catch(n=>console.error("can't copy", n))
     }
 }
-const ut = "./img/halo.png"
-  , ft = "./img/cross.png"
+const ut = "./img/halo.svg"
+  , ft = "./img/cross.svg"
   , he = s=>new Promise((e,t)=>{
     const n = new Image;
     n.src = s,
